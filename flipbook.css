@@ -1,0 +1,276 @@
+/* template */
+
+body {
+background: #fff repeat-x;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 18px;
+color: #333333;
+}
+
+a { color: #26478A; text-decoration: none; }
+
+/* Header */
+
+#wrap {
+margin: 0 auto;
+width: 800px;
+}
+
+#header { 
+height: 60px;
+background: #26478A no-repeat;
+}
+#header #appname {
+font-size: 26px;
+font-weight: 100;
+letter-spacing: -3px;
+padding: 12px 0 5px 10px;
+float:left;
+}
+#header #appname a {
+color: #fff;
+text-decoration: none;
+}
+#header #appname a:hover {
+color: #eee;
+text-decoration: none;
+}
+#header #menu {
+    float:right;
+}
+#header #menu li {
+    display:inline;
+    list-style-type: none;
+    margin-right:20px;
+}
+#header #menu li a {
+    color:white;
+}
+
+#header #menu li a:hover { 
+    text-decoration: underline; 
+}
+
+/* Message area */
+
+#message {
+    border-radius:50px;
+    left:25%;
+    width:50%;
+    min-width:300px;
+    margin:auto;
+    top:40px;
+    line-height:50px;
+    position:absolute;
+
+}
+
+.message_success {
+    background-color:#a7e49e;
+}
+
+.message_fail {
+    background-color:#ef8b8b;
+}
+
+.message_info {
+    background-color:#e4e599;
+}
+
+/* Content */
+
+#searchBox {
+    text-align:center;
+}
+
+@media screen and (min-width: 1000px) {
+    #area1 {
+        float:left;
+        width:50%;
+    }
+    #area2{
+        float:right;
+        width:50%;
+    }
+    area2::before{
+        content:attr(hr);
+    }
+}
+
+.note {
+    line-height: 2em;
+}
+
+#content {
+    padding: 10px 0px;
+    width:90%;
+    margin:auto;
+    text-align:center;
+    line-height: 1.5em;
+    overflow:auto;
+}
+
+  /* change cursor over clickable elemements */
+i {
+    cursor: pointer; 
+    cursor: hand;
+}
+
+.saveicon{
+    padding-left:10px;
+    color:green;
+}
+
+.deleteicon{
+    padding-right:10px;
+    color:red;
+}
+
+  /* object and properties */
+  
+ h1 {
+    font-size: 36px;
+    line-height:1.2em;
+    font-weight: 400;
+    padding : 10px 0 0 0;
+    margin-bottom: 0px;
+ }
+ 
+ h2 {
+    font-size: 30px;
+    font-weight: 400;
+    padding : 10px 0 0 0;
+    /*border-top: 1px solid #bbb;*/
+    margin-bottom: 0px;
+ }
+
+
+/* lists, properties and relationships */
+
+.list {
+    padding: 10px;
+}
+
+.list ul {
+    list-style-type: square;
+    padding: 5px 10px 10px 20px;
+}
+
+
+
+
+/* crud forms */
+
+.crud_form {
+    display:none;
+    background-color: #d9d9d9;
+    padding:10px 0 
+}
+
+.crud_form p {
+    margin:0;
+}
+
+.keep {
+    margin:50px 0;
+}
+
+.fade{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index:1001;
+    -moz-opacity: 0.7;
+    opacity:.70;
+    filter: alpha(opacity=70);
+}
+.light{
+    /*display: none;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 200px;
+    margin-left: -150px;
+    margin-top: -100px;                 
+    padding: 10px;
+    border: 2px solid #FFF;
+    background: #CCC;
+    z-index:1002;
+    overflow:visible;
+}
+
+/* for non-centered text */
+.leftalign {
+    text-align:left;
+}
+
+
+/* footer */
+
+#footer {
+    border-top: 1px solid #aaa;
+    text-align: center;
+    color: #333;
+    font-size: 11px;
+    padding: 0 0 10px 0;
+    margin-top: 20px;
+}
+
+/* flipbook custom stuff */
+
+.edit_hover{
+    background-color:yellow;
+}
+
+.listtable {
+    background-color:blue;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.tablebold {font-weight:bold;}
+
+table td {
+    border:1px solid black; 
+    padding:0 10px;
+}
+
+/* visulizations */
+
+.viz {
+    padding-top:40px;
+}
+
+#infovis {
+    position:relative;
+    width:90%;
+    height:500px;
+    margin:auto;
+    overflow:hidden;
+    background-color:#1a1a1a;
+}
+
+/*TOOLTIPS*/
+.tip {
+    color: #111;
+    width: 139px;
+    background-color: white;
+    border:1px solid #ccc;
+    -moz-box-shadow:#555 2px 2px 8px;
+    -webkit-box-shadow:#555 2px 2px 8px;
+    -o-box-shadow:#555 2px 2px 8px;
+    box-shadow:#555 2px 2px 8px;
+    opacity:0.9;
+    filter:alpha(opacity=90);
+    font-size:10px;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding:7px;
+}

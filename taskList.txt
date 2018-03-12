@@ -1,0 +1,18 @@
+-- reminders
+set up Validation on form fields https://jqueryvalidation.org/documentation/
+set up datepicker https://jqueryui.com/datepicker/
+
+---Big Tasks
+Get all front-end fuctions working
+Create back end (definitions) view/add/edit pages 
+Define and implement data checks; prevent duplicate names on add/edit
+Implement input box based on field type (text, DT or number)
+Switch so all pages use Javascript vs. php (mod, mod_result using php)
+Switch from input form and submission confirmation on another page to shadowbox 
+Switch from links and text to clickable background image on hover
+Implement authentication, login and only display links to proper people
+Implement security, so urls are only available to proper people
+
+---Things to Fix
+Can not delete objects
+if all propeties are filled out, the link to add a property should no longer be available

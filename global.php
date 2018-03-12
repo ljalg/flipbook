@@ -1,0 +1,4 @@
+<?php
+// global php file
+
+?>
